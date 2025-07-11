@@ -1,0 +1,181 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 2rem;
+  padding-right: 60px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.button {
+  width: 100%;
+  margin-left: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.linktext {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #0056b3;
+}
+/* --------------------------------------------------------------------------------------- */
+
+
+.dashboard {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 2rem;
+  background-color: #f0f6ff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.dashtitle {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #3d716c;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.dashform {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.dashinput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.dashbutton {
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashbutton:hover {
+  background-color: #004a99;
+}
+
+.todolist {
+  display: grid;
+  gap: 16px;
+}
+
+.todocard {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.07);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.todocard:hover {
+  transform: translateY(-4px);
+}
+
+.todocontent h3 {
+  margin: 0;
+  color: #333;
+}
+
+.todocontent p {
+  margin: 4px 0 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.todoact {
+  display: flex;
+  gap: 8px;
+}
+
+.edit,
+.delete {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: #ff9800;
+  color: white;
+}
+
+.delete {
+  background-color: #e53935;
+  color: white;
+}
+
+.edit:hover {
+  background-color: #fb8c00;
+}
+
+.delete:hover {
+  background-color: #c62828;
+}
